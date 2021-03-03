@@ -5,3 +5,4 @@ get-childitem *.JPG | foreach {rename-item $_ $_.name.replace("_",";")}
 write this code after * mention file extension
 
 
+ 
